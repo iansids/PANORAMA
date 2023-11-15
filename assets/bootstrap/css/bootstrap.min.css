@@ -15889,7 +15889,24 @@
     padding-right: 50px;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
+    -webkit-animation: modal 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: modal 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+ 
   }
+  
+  @keyframes modal {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
   
   .modal-content {
     background-color: #fefefe;
@@ -15897,6 +15914,8 @@
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    
+   
   }
   
   .close {
