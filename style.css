@@ -1093,19 +1093,19 @@ img {
   .post-details-title-area .post-content .post-title {
     display: block;
     color: #ffffff;
-    font-size: 72px;
+    font-size: 48px;
     line-height: 1.1;
     margin-bottom: 15px;
     font-weight: 700; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .post-details-title-area .post-content .post-title {
-        font-size: 24px; } }
+        font-size: 48px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .post-details-title-area .post-content .post-title {
-        font-size: 42px; } }
+        font-size: 48px; } }
     @media only screen and (max-width: 767px) {
       .post-details-title-area .post-content .post-title {
-        font-size: 24px; } }
+        font-size: 48px; } }
   .post-details-title-area .post-content p {
     color: #ffffff;
     font-size: 15px; }
@@ -1158,7 +1158,7 @@ img {
   .hero-contact-area .post-content .post-title {
     display: block;
     color: #ffffff;
-    font-size: 72px;
+    font-size: 48;
     line-height: 1.1;
     margin-bottom: 15px;
     font-weight: 700; }
@@ -1167,10 +1167,10 @@ img {
         font-size: 48px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .hero-contact-area .post-content .post-title {
-        font-size: 42px; } }
+        font-size: 48px; } }
     @media only screen and (max-width: 767px) {
       .hero-contact-area .post-content .post-title {
-        font-size: 24px; } }
+        font-size: 48px; } }
   .hero-contact-area .post-content p {
     color: #ffffff;
     font-size: 15px; }
