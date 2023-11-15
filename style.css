@@ -639,7 +639,7 @@ img {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms; }
     .single-blog-post.style-1 .blog-thumbnail img {
-      width: 100%;
+      width: 120%;
       -webkit-transition-duration: 800ms;
       transition-duration: 800ms; }
     .single-blog-post.style-1 .blog-thumbnail.bg-overlay::after {
