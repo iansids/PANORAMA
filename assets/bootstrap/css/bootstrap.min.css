@@ -6557,6 +6557,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 50%;
     color: var(--bs-modal-color);
     pointer-events: auto;
     background-color: var(--bs-modal-bg);
@@ -15939,7 +15940,7 @@
   }
   
   .scrollable-content {
-    max-height: 150px;
+    max-height: 450px;
     overflow-y: auto;
   }
   
