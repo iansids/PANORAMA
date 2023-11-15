@@ -15,6 +15,19 @@
 <body>
     <!-- Start: Ludens Users - 2 Register -->
     <section class="register-photo" style="background: #e3e3e3;">
+        <!-- Terms & Conditions-->
+        <div id="termsModal" class="modal">
+            <div class="modal-content"><img src="logo.svg" alt="Terms and Conditions Image" class="header-image">
+                <h2>Terms and Conditions</h2>
+                <div class="scrollable-container">
+                    <div class="scrollable-content">
+                        <p class="terms-paragraph"> 1. IntroductionWelcome to [Your Company]'s website. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which, together with our privacy policy, govern [Your Company]'s relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website. </p>
+                        <p class="terms-paragraph"> 2. The use of this website is subject to the following terms: a. The content of the pages of this website is for your general information and use only. It is subject to change without notice. b. Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness, or suitability of the information and materials found or offered on this website for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors, and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law. c. Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services, or information available through this website meet your specific requirements. d. This website contains material that is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance, and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions. e. All trademarks reproduced in this website, which is not the property of, or licensed to the operator, is acknowledged on the website. f. Unauthorized use of this website may give rise to a claim for damages and/or be a criminal offense. g. From time to time, this website may also include links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s). h. Your use of this website and any dispute arising out of such use of the website is subject to the laws of [Your Country]. </p>
+                        <p class="terms-paragraph"> 3. Privacy Policy Your use of this website is also governed by our Privacy Policy, which can be found [here]. By using the website, you consent to the terms described in the Privacy Policy. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Start: Form Container -->
         <div class="form-container" style="margin-top: 40px;">
             <!-- Start: Image -->
@@ -56,12 +69,14 @@
                 <div class="form-group mb-3"><input class="form-control" type="password" id="confirmPassword" name="password-repeat" placeholder="Repeat Password" onchange="changePassword()" style="font-size: 12px;border-radius: 8px;"></div>
                 <div id="passwordsError" style="display: none;margin-bottom: 16.5px;"><span id="errorMessage" class="text-danger" style="font-size:13px;"></span></div>
                 <div class="form-group mb-3">
-                    <div class="form-check"><input type="checkbox" class="form-check-input" id="termsCheckbox"><label class="form-label form-label form-check-label" for="termsCheckbox"> I agree with the <a href="your-terms-and-conditions-link">terms and conditions</a>. </label></div>
+                   <!-- <div class="form-check"><input type="checkbox" class="form-check-input" id="termsCheckbox"><label class="form-label form-label form-check-label" for="termsCheckbox"> I agree with the <a href="your-terms-and-conditions-link">terms and conditions</a>. </label></div> -->
+                    <div class="form-check"><input id="termsCheckbox" class="form-check-input" type="checkbox" /><label class="form-label form-label form-label form-check-label" for="termsCheckbox"> I agree with the <a id="termsLink" href="#">terms and conditions</a>. </label></div>
                 </div>
                 <div class="form-group mb-3"><button class="btn btn-primary d-block w-100" data-bss-hover-animate="pulse" id="submitButton" type="submit" style="color: rgb(255,255,255);background: var(--bs-body-color);border-radius: 8px;">Create Account</button></div><span class="already">Do you already have an account? <a href="signin.html">Log in <strong>here</strong></a>.</span>
             </form>
         </div><!-- End: Form Container -->
     </section><!-- End: Ludens Users - 2 Register -->
+    <script type="text/javascript" src="signup.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
 </body>

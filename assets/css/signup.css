@@ -131,3 +131,19 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
   text-decoration: none;
 }
 
+.scrollable-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.scrollable-content {
+  max-height: 300px; /* Set a fixed height for the scrollable content */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.terms-paragraph {
+  padding-left: 10px;
+  padding-right: 10px;
+}
