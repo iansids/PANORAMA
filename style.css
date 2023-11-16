@@ -1026,7 +1026,9 @@ img {
     color: #ffffff;
     font-size: 72px;
     line-height: 1.1;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    cursor: default;
+   }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .catagory-featured-post .post-content a {
         font-size: 48px; } }
@@ -1037,7 +1039,7 @@ img {
       .catagory-featured-post .post-content a {
         font-size: 24px; } }
     .catagory-featured-post .post-content a:hover, .catagory-featured-post .post-content a:focus {
-      color: #ef1b48; }
+      text-decoration: none; }
   .catagory-featured-post .post-content p {
     color: #ffffff;
     font-size: 15px; }
