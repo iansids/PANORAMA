@@ -20,7 +20,7 @@ body {
   .separator {
     font-family: "Raleway", sans-serif;
   color: #000000;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 700; 
   text-align: center;
   display: flex;
