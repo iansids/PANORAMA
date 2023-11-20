@@ -1,10 +1,16 @@
 input[type="text"], input[type="email"], input[type="tel"], textarea {
-  border-radius: 0 !important;
+  border-radius: 8px !important;
 }
 
 input[type="text"], input[type="email"], input[type="tel"], textarea {
   border-radius: 8px !important;
 }
+
+input[type="name"], input[type="name"], input[type="tel"], textarea {
+  border-radius: 8px !important;
+}
+
+
 
 .btn-primary:hover {
   color: #fff;
