@@ -767,7 +767,7 @@ img {
         .single-blog-post.style-3 .blog-content .post-title {
           font-size: 18px; } }
       .single-blog-post.style-3 .blog-content .post-title:hover, .single-blog-post.style-3 .blog-content .post-title:focus {
-        color: #000000; }
+        color: #ffffff; }
     .single-blog-post.style-3 .blog-content .post-author {
       display: block;
       font-size: 12px;
@@ -776,7 +776,7 @@ img {
       transition-duration: 500ms;
       font-weight: 500; }
       .single-blog-post.style-3 .blog-content .post-author:hover, .single-blog-post.style-3 .blog-content .post-author:focus {
-        color: #000000; }
+        color: #ffffff; }
   .single-blog-post.style-3:hover .blog-content .post-title {
     color: #ffffff;
 text-decoration: underline;
