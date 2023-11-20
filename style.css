@@ -778,7 +778,9 @@ img {
       .single-blog-post.style-3 .blog-content .post-author:hover, .single-blog-post.style-3 .blog-content .post-author:focus {
         color: #000000; }
   .single-blog-post.style-3:hover .blog-content .post-title {
-    color: #000000; }
+    color: #ffffff;
+text-decoration: underline;
+     }
 
   .single-blog-post.style-4 {
     display: flex;
