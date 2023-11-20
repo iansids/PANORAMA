@@ -659,9 +659,11 @@ img {
       font-size: 14px;
       color: #ffffff;
       font-weight: 500;
-      display: block;
+      display: flex; /* Add this line */
+      align-items: flex-start; /* Add this line */
       -webkit-transition-duration: 500ms;
-      transition-duration: 500ms; }
+      transition-duration: 500ms;
+}
     .single-blog-post.style-1 .blog-content .post-title {
       font-weight: 500;
       font-size: 30px;
